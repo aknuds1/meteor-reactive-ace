@@ -170,7 +170,7 @@ ReactiveAce.addProperty 'useSoftTabs', ->
     return @_getSession()?.getUseSoftTabs()
   , (value) ->
     @_getSession()?.setUseSoftTabs value
-    
+
 ReactiveAce.addProperty 'wordWrap', ->
     return @_getSession()?.getUseWrapMode()
   , (value) ->
